@@ -1,5 +1,3 @@
-# Develop a streamlit-based secure data storage and retrieval system
-# instructor: Areej Shah
 
 import streamlit as st
 import hashlib
