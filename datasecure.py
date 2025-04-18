@@ -141,7 +141,7 @@ else:
 
         if not user_data:
             st.info("No Data Found!")
-else:
+       else:
             st.write("Encryted Data Enteries:")
             for i, item in enumerate(user_data):
                 st.code(item, language="text")
