@@ -135,7 +135,7 @@ elif choice == "Store Data":
 elif choice == "Retieve Data":
     if not st.session_state.authenticated_user:
         st.warning("Please login first")
-    else:
+else:
         st.subheader("🔍 Retieve data") 
         user_data = stored_data.get(st.session_state.authenticated_user, {}).get("data", [])
 
